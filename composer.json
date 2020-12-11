@@ -1,0 +1,51 @@
+{
+  "name": "yzen.dev/laravel-opcache-facade",
+  "version": "0.0.1",
+  "description": "Laravel artisan commands for working with opcache.",
+  "keywords": [
+    "opcache",
+    "laravel",
+    "php",
+    "artisan"
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andey Iatsenko",
+      "email": "yzen.dev@gmail.com"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelOpcacheFacade\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "illuminate/contracts": "^v7.0",
+    "illuminate/support": "^v7.0",
+    "illuminate/console": "^v7.0",
+    "ext-zend-opcache": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpstan/phpstan": "^0.12.37",
+    "squizlabs/php_codesniffer": "*"
+  },
+  "support": {
+    "issues": "https://github.com/yzen-dev/laravel-opcache-facade/issues",
+    "source": "https://github.com/yzen-dev/laravel-opcache-facade"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelOpcacheFacade\\ServiceProvider"
+      ]
+    }
+  }
+}
