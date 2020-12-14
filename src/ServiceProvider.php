@@ -2,6 +2,10 @@
 
 namespace LaravelOpcacheFacade;
 
+/**
+ * Class ServiceProvider
+ * @package LaravelOpcacheFacade
+ */
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     /**
