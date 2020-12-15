@@ -22,3 +22,13 @@ Get status information about the cache:
 ```
 php artisan opcache:status
 ```
+
+### Use from code
+
+```php
+use LaravelOpcacheFacade\OpcacheFacade;
+
+OpcacheFacade::clear();
+OpcacheFacade::getConfig();
+OpcacheFacade::getStatus();
+```
