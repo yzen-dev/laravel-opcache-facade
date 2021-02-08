@@ -29,8 +29,7 @@
     "php": "^7.2",
     "illuminate/contracts": "^v7.0",
     "illuminate/support": "^v7.0",
-    "illuminate/console": "^v7.0",
-    "ext-zend-opcache": "*"
+    "illuminate/console": "^v7.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
